@@ -1,0 +1,22 @@
+.modal-form__title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: calc(23 / 20);
+  }
+}
+
+.modal-form__button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px 10px;
+  box-shadow: 0px 4px 4px $filter-color;
+}
